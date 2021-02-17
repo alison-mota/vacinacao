@@ -19,6 +19,8 @@ public class Usuario {
     public Usuario() {
     }
 
+    //Método mudar, responsável pela validação dos dados e retorno dos status (400 e 201)
+
     public Usuario(String nomeUsuario, String emailUsuario, String cpf, LocalDate dataNascimento) {
         this.nome = nomeUsuario;
         this.cpf = cpf;
